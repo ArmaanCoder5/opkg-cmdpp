@@ -1,0 +1,12 @@
+format = 1
+
+id = "opkg"
+name = "OpenPack"
+version = "0.1.0"
+entry = "opkg.main:register"
+min_cmdpp = "0.1.1"
+
+description = "OpenPack plugin for Command++ (opkg)."
+author = "Armaan"
+commands = ["opkg", "opkg.version"]
+capabilities = ["filesystem"]
